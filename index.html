@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12-Column Responsive Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        <header role="banner">
+            <h1>Ahmad's Responsive Portal</h1>
+        </header>
+
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="grid-container">
+            
+            <main class="col-4 col-md-12" role="main">
+                <h2>Main Content Area</h2>
+                <p>Modern layouts me 12 columns hote hain. Yeh section desktop par zyada jagah 
+                   (8 columns) gherega aur mobile par poori screen le lega.
+                </p>
+            </main>
+
+            <aside class="col-4 col-md-12" role="complementary" aria-label="Sidebar Info">
+                <h3>Sidebar (Aside)</h3>
+                <p>Yeh section desktop par baki bachi hui jagah (4 columns) lega.</p>
+            </aside>
+
+        </div>
+
+        <footer role="contentinfo">
+            <p>2026 Ahmad. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
